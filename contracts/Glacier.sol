@@ -3,10 +3,10 @@ pragma solidity 0.8.9;
 
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 
-contract Test is OwnableUpgradeable {
+contract Glacier is OwnableUpgradeable {
 
-    string public constant name = "Test";
-    string public constant symbol = "Test";
+    string public constant name = "Glacier";
+    string public constant symbol = "GLACIER";
     uint8 public constant decimals = 18;
     uint256 public totalSupply;
 
